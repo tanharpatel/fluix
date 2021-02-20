@@ -1,0 +1,94 @@
+name: fluix
+description: An HUB for UI Designs with CODE
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  firebase_core:
+  cloud_firestore:
+  firebase_database:
+  firebase_storage:
+  flutter_spinkit:
+  bordered_text:
+  dynamic_theme:
+  provider:
+  flutter_staggered_grid_view:
+  transparent_image:
+  wave_drawer:
+  cached_network_image:
+  google_fonts: ^1.1.0
+  curved_navigation_bar: ^0.3.3
+  convex_bottom_bar: ^2.4.1
+  circle_bottom_navigation: ^1.0.6
+  google_nav_bar: ^2.2.0
+  line_icons: ^0.2.0
+  flutter_bloc: ^2.1.1
+  hidden_drawer_menu: ^2.0.1
+  foldable_sidebar: ^1.0.0
+  swipedetector: ^1.2.0
+  flare_flutter: ^2.0.6
+  smart_flare: ^0.2.9+1
+  line_awesome_icons: ^1.0.4+2
+  flutter_screenutil:
+  animated_theme_switcher: ^1.0.7
+  font_awesome_flutter: ^8.8.1
+  liquid_swipe:
+  intro_views_flutter: ^2.8.1
+  nice_intro: ^0.1.4
+  local_auth: ^0.6.3+1
+  folding_cell: ^1.0.0
+  page_transition: ^1.1.6
+  file_picker: ^2.0.0
+  flutter_fluid_slider: ^1.0.2
+  flutter_slider_drawer: ^1.0.3
+  slider_button: ^0.6.0
+  argon_buttons_flutter: ^1.0.6
+  fluttertoast: ^7.1.1
+  animated_floatactionbuttons:
+  url_launcher:
+  carousel_slider:
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - lib/Authentication/
+    - lib/Dashboard/
+    - lib/Drawer/
+    - lib/Grids/
+    - lib/IntroSliders/
+    - lib/Lists/
+    - lib/Miscellaneous/
+    - lib/Navigation/
+    - lib/Settings/
+  
+  fonts:
+    - family: Dosis
+      fonts:
+      - asset: fonts/Dosis-ExtraBold.ttf
+    - family: Quicksand
+      fonts:
+        - asset: fonts/Quicksand-Light.ttf
+        - asset: fonts/Quicksand-Regular.ttf
+        - asset: fonts/Quicksand-Medium.ttf
+        - asset: fonts/Quicksand-Bold.ttf
+          weight: 700
