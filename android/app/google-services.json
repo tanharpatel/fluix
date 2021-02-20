@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "381922109224",
+    "firebase_url": "https://fluix-c6a93.firebaseio.com",
+    "project_id": "fluix-c6a93",
+    "storage_bucket": "fluix-c6a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381922109224:android:b8727eb31a9b3b8fc2d21d",
+        "android_client_info": {
+          "package_name": "com.example.fluix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381922109224-ebs1t9g7v4dd5vem6kcjtu6k14pe0p9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fluix",
+            "certificate_hash": "0a94863299beb32ecfe602cd84004df575d08756"
+          }
+        },
+        {
+          "client_id": "381922109224-7stnr9n6c5sqkn841n06el9284au2isu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP4OQidYMFjrUKGk064zXUP4w65cMcuN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381922109224-7stnr9n6c5sqkn841n06el9284au2isu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
