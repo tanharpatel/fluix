@@ -30,7 +30,7 @@ class CardDashboard extends StatelessWidget {
                 gradient: enableDarkMode ?
                   LinearGradient(colors: [Color(0xff272B2F), Color(0xff272B2F)]) :
                   LinearGradient(colors: [Colors.blueAccent, Colors.purple[300]],
-                  // LinearGradient(colors: [Color(0xff7C8EF8), Color(0xff8F69FF)],
+                 /* // LinearGradient(colors: [Color(0xff7C8EF8), Color(0xff8F69FF)],*/
                   begin: Alignment.bottomLeft, end: Alignment.topRight
                 ),
               ),
@@ -82,7 +82,7 @@ class CardDashboard extends StatelessWidget {
                       elevation: 20,
                       shape: RoundedRectangleBorder(side: BorderSide(color: Colors.amberAccent, width: 3), borderRadius: BorderRadius.circular(40)),
                       onPressed: () {
-                        /*TODO: add functionality here*/
+                        /*//TODO: add functionality here*/
                       },
                       child: Text("Share Account", style: TextStyle(fontSize: MediaQuery.of(context).size.height*0.025, fontWeight: FontWeight.w600,),),
                     ),

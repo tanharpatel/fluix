@@ -51,7 +51,7 @@ class _Home1State extends State<Home1> {
                 child: Container(
                   height: 100.0,
                   width: 100.0,
-                  child: Image.asset("images/flutter_icon.png"),
+                  child: Image.asset("images/logo.png"),
                 ),
               ),
               Padding(

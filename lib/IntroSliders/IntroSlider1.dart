@@ -68,7 +68,7 @@ class _Introslider1State extends State<Introslider1> {
                 child: FlatButton(
                   onPressed: ()  {
                     print("SKip");
-                    //TODO your skip function
+                   /* //TODO your skip function*/
                   },
                   child: Text("Skip",style: TextStyle(fontSize: screenHeight/40,color: Colors.white),),
                 ),),
@@ -185,7 +185,7 @@ class _Introslider1State extends State<Introslider1> {
        child: Center(
          child: GestureDetector(
            onTap: (){
-             //Todo your home page goes here
+            /* //Todo your home page goes here*/
            },
            child: Text("Get started",
            style: TextStyle(

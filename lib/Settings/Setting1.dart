@@ -7,7 +7,7 @@ import 'package:fluix/Components/ProfileListItem.dart';
 
 
 class Profile1 extends StatelessWidget {
-  static final String path = "lib/Settings/Settings1.dart";
+  static final String path = "lib/Settings/Setting1.dart";
   @override
   Widget build(BuildContext context) {
     return ThemeProvider(
@@ -68,12 +68,12 @@ class ProfileScreen extends StatelessWidget {
           ),
           SizedBox(height: kSpacingUnit.w * 2),
           Text(
-            'Zeeshan Bhati',
+            'Your User',
             style: kTitleTextStyle,
           ),
           SizedBox(height: kSpacingUnit.w * 0.5),
           Text(
-            'zeeshanbhati1408@gmail.com',
+            'youruser@gmail.com',
             style: kCaptionTextStyle,
           ),
           SizedBox(height: kSpacingUnit.w * 2),

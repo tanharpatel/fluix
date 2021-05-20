@@ -71,7 +71,7 @@ class _IntroSlider2State extends State<IntroSlider2> {
                     child: FlatButton(
                       onPressed: ()  {
                         print("SKip");
-                        //TODO your skip function
+                       /* //TODO your skip function*/
                       },
                       child: Text("Skip",style: TextStyle(fontSize: screenHeight/40,color: Colors.white),),
                     ),),
@@ -90,7 +90,7 @@ class _IntroSlider2State extends State<IntroSlider2> {
                         Center(
                           child: Stack(children: [
                             Container(
-                              //height: screenHeight/1.3,
+                             /* //height: screenHeight/1.3,*/
                               child: Card(
                                 semanticContainer: true,
                                 clipBehavior: Clip.antiAliasWithSaveLayer,
@@ -130,11 +130,11 @@ class _IntroSlider2State extends State<IntroSlider2> {
                           ]),
                         ),
 
-                        //Page 1
+                      /*  //Page 1*/
                         Center(
                           child: Stack(children: [
                             Container(
-                              //height: screenHeight/1.3,
+                             /* //height: screenHeight/1.3,*/
                               child: Card(
                                 semanticContainer: true,
                                 clipBehavior: Clip.antiAliasWithSaveLayer,
@@ -174,11 +174,11 @@ class _IntroSlider2State extends State<IntroSlider2> {
                           ]),
                         ),
 
-                        //Page 2
+                      /*  //Page 2*/
                         Center(
                           child: Stack(children: [
                             Container(
-                              //height: screenHeight/1.3,
+                             /* //height: screenHeight/1.3,*/
                               child: Card(
                                 semanticContainer: true,
                                 clipBehavior: Clip.antiAliasWithSaveLayer,
@@ -217,7 +217,7 @@ class _IntroSlider2State extends State<IntroSlider2> {
                             )
                           ]),
                         ),
-                        // Page 3
+                     /*   // Page 3*/
 
 
 
@@ -266,7 +266,7 @@ class _IntroSlider2State extends State<IntroSlider2> {
                       alignment: FractionalOffset.bottomRight,
                       child: FlatButton(
                         onPressed: () {
-                         //TODO NEW PAGE direction
+                         /*//TODO NEW PAGE direction*/
                         },
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,

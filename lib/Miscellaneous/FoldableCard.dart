@@ -20,7 +20,7 @@ class FoldableCard extends StatelessWidget {
           frontWidget: _buildFrontWidget(context),
           innerTopWidget: _buildInnerTopWidget(context),
           innerBottomWidget: _buildInnerBottomWidget(context),
-          //cellSize: Size(MediaQuery.of(context).size.width, 125),
+         /* //cellSize: Size(MediaQuery.of(context).size.width, 125),*/
 
           cellSize: Size(MediaQuery.of(context).size.width,MediaQuery.of(context).size.height/2),
           padding: EdgeInsets.all(15),
@@ -40,12 +40,7 @@ class FoldableCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            // Text("CARD",
-            //     style: TextStyle(
-            //         color: Color(0xFF2e282a),
-            //         fontFamily: 'OpenSans',
-            //         fontSize: 20.0,
-            //         fontWeight: FontWeight.w800)),
+
             FlatButton(
               onPressed: () => _foldingCellKey?.currentState?.toggleFold(),
               child: Text(

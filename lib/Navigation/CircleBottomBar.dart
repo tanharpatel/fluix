@@ -10,7 +10,7 @@ import 'package:fluix/DemoScreens/DemoScreen4.dart';
 /*TODO: PLEASE MAKE SURE TO IMPORT ALL THE PACKAGES & FILES AS SHOWN ABOVE YOU CAN REPLACE THE DEMO SCREENS WITH YOUR SCREEN*/
 
 class CircleBottomBar extends StatefulWidget {
-  static final String path = "lib/Navigaiton/CircleBottomBar.dart";
+  static final String path = "lib/Navigation/CircleBottomBar.dart";
   @override
   _CircleBottomBarState createState() => _CircleBottomBarState();
 }

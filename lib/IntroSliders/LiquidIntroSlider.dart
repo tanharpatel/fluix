@@ -82,7 +82,7 @@ class LiquidIntroSlider extends StatelessWidget {
                           size: 30,
                         ),
                         onTap: (){
-                          ///Your Activity goes here
+                         /* ///Your Activity goes here*/
                           },
                       )
                     ],

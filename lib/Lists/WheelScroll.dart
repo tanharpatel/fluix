@@ -22,11 +22,11 @@ class _WheelScrollState extends State<WheelScroll> {
       body: Center(
         child: ListWheelScrollView(
           itemExtent:
-              250, // used to set the size of each item in the main axis.
+              250, /*// used to set the size of each item in the main axis.*/
           useMagnifier: true,
           physics: FixedExtentScrollPhysics(),
           diameterRatio:
-              4.0, //The diameter of the cylinder can be set using diameterRatio property value.
+              4.0, /*//The diameter of the cylinder can be set using diameterRatio property value.*/
           squeeze: 2.0,
           perspective: 0.01,
           children: <Widget>[

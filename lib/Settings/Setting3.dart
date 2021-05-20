@@ -2,7 +2,7 @@ import 'package:fluix/Components/CustomAppBar.dart';
 import 'package:flutter/material.dart';
 
 class Settings3 extends StatefulWidget {
-  static final String path = "lib/Profile/Settings3.dart";
+  static final String path = "lib/Settings/Setting3.dart";
 
   @override
   _Settings3State createState() => _Settings3State();

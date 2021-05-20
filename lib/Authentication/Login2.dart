@@ -87,7 +87,7 @@ class _Login2State extends State<Login2> {
               ),
             ),
             onTap: () {
-              //TODO Implement Sign in code;
+             /* //TODO Implement Sign in code;*/
             },
           )
         ],
@@ -188,7 +188,7 @@ class BackgroundSignin extends CustomPainter {
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
+    /*// TODO: implement shouldRepaint*/
     return oldDelegate != this;
   }
 }

@@ -58,7 +58,7 @@ class AppleSliderButton extends StatelessWidget {
                     startTimer(5);
                   }
                 },
-                // initialTimer: 10,
+               /* // initialTimer: 10,*/
                 child: Text(
                   "Resend OTP",
                   style: TextStyle(
@@ -128,7 +128,7 @@ class AppleSliderButton extends StatelessWidget {
                     startTimer(5);
                   }
                 },
-                // initialTimer: 10,
+               /* // initialTimer: 10,*/
                 child: Text(
                   "Resend OTP",
                   style: TextStyle(
@@ -172,7 +172,7 @@ class AppleSliderButton extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   child: SpinKitRotatingCircle(
                     color: Colors.white,
-                    // size: loaderWidth ,
+                  /*  // size: loaderWidth ,*/
                   ),
                 ),
                 borderRadius: 5.0,

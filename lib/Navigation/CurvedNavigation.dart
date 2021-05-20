@@ -9,7 +9,7 @@ import 'package:fluix/DemoScreens/DemoScreen4.dart';
 /*TODO: PLEASE MAKE SURE TO IMPORT ALL THE PACKAGES & FILES AS SHOWN ABOVE YOU CAN REPLACE THE DEMO SCREENS WITH YOUR SCREEN*/
 
 class CurvedNavigation extends StatefulWidget {
-  static final String path = "lib/Navigation/curvedNavigation";
+  static final String path = "lib/Navigation/CurvedNavigation.dart";
   @override
   _CurvedNavigationState createState() => _CurvedNavigationState();
 }

@@ -94,24 +94,25 @@ class _ElasticState extends State<Elastic> {
                               ),
                               SizedBox(height: 30.0),
                               _buildRow(Icons.person, "Profile", () {
-                                //TODO: screen
+                                /*//TODO: screen*/
                               }),
                               _buildDivider(),
                               _buildRow(Icons.settings, "Settings", () {
-                                //TODO: screen
+                                /*//TODO: screen*/
                               }),
                               _buildDivider(),
                               _buildRow(Icons.notifications, "Notifications",
                                   () {
-                                //TODO: screen
+                               /* //TODO: screen*/
                               }),
                               _buildDivider(),
                               _buildRow(Icons.phone, "Contact us", () {
-                                //TODO: screen
+                               /* //TODO: screen*/
                               }),
                               _buildDivider(),
                               _buildRow(Icons.info, "About", () {
-                                //TODO: screen
+
+                               /* //TODO: screen*/
                               }),
                               _buildDivider(),
                               Row(

@@ -104,7 +104,7 @@ class Settings2 extends StatelessWidget {
                     child: Text("Follow",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                   ),
                   onTap: (){
-                    //TODO Implement the follow function
+                    /*//TODO Implement the follow function*/
                   },
                 )
               ],

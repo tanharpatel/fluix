@@ -37,8 +37,8 @@ class _BiometricAuthState extends State<BiometricAuth> {
   Future<void> _getAvailableBiometrics() async {
     List<BiometricType> availableBiometric = [];
     try{
-      //the function getAvailableBiometrics() is only for API LEVEL 29 , In case of API LEVEL less than 29 USE authenticateWithBiometrics(). it will return error
-      // if no hardware is found
+     /* the function getAvailableBiometrics() is only for API LEVEL 29 , In case of API LEVEL less than 29 USE authenticateWithBiometrics(). it will return error*/
+       /*if no hardware is found*/
       availableBiometric = await auth.getAvailableBiometrics();
     } on PlatformException catch(e){
       print(e);

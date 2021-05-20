@@ -14,11 +14,10 @@ class IntroSlider3 extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
     List<PageViewModel> pages = [
-      //Page no 1
+    /*  //Page no 1*/
       PageViewModel(
           pageColor: Colors.red,
-          //iconImageAssetPath: "images/google_logo.png",
-          //bubble: Image.asset('images/wrap.png'),
+
           body: Text(
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           ),
@@ -34,8 +33,7 @@ class IntroSlider3 extends StatelessWidget {
 
       PageViewModel(
           pageColor: Colors.purple,
-          //iconImageAssetPath: "images/google_logo.png",
-          //bubble: Image.asset('images/wrap.png'),
+
           body: Text(
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           ),
@@ -51,8 +49,7 @@ class IntroSlider3 extends StatelessWidget {
 
       PageViewModel(
         pageColor: Colors.green,
-        //iconImageAssetPath: "images/google_logo.png",
-        //bubble: Image.asset('images/wrap.png'),
+
         body: Text(
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         ),
@@ -70,12 +67,12 @@ class IntroSlider3 extends StatelessWidget {
       body: IntroViewsFlutter(
           pages,
         onTapNextButton: (){
-            //NEXT funciton goes here
+         /*   //NEXT funciton goes here*/
         },
         showNextButton: true,
         showSkipButton: true,
         onTapSkipButton: (){
-            //TODO //SKIP funciton goes here
+           /* //TODO //SKIP funciton goes here*/
         },
         pageButtonTextStyles: TextStyle(color:Colors.white,fontSize: 18.0,),
       ),

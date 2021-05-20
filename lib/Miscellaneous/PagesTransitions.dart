@@ -8,7 +8,7 @@ import 'package:page_transition/page_transition.dart';
 
 
 class PagesTransitions extends StatefulWidget {
-  static final String path = "lib/Miscallaneous/PagesTransitions.dart";
+  static final String path = "lib/Miscellaneous/PagesTransitions.dart";
   @override
   _PagesTransitionsState createState() => _PagesTransitionsState();
 }

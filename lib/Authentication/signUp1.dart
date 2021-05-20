@@ -54,17 +54,19 @@ class _SignUp1State extends State<SignUp1> {
                       child: Container(
                         height: 70.0,
                         width: 70.0,
-                        child: Image.asset("images/flutter_icon.png"),
+                        child: Image.asset("images/logo.png"),
                       ),
                     ),
                     Padding(
                       padding: EdgeInsets.only(top: screenSize.height / 20),
                       child: Text(
-                        "ENJOY THE TRIP \n WITH US",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: screenSize.height / 30,
-                            fontWeight: FontWeight.bold),
+                        "Enjoy The Trip \n With Me",
+                        style: GoogleFonts.lato(
+                          textStyle: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1.0,
+                          fontSize: screenSize.height / 30,
+                          color: Colors.white)),
                       ),
                     )
                   ]),

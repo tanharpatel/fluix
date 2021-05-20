@@ -5,8 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
+
 class Dashboard3 extends StatefulWidget {
-  static final String path = "lib/DashBoard/DashBoard3.dart";
+  static final String path = "lib/Dashboard/Dashboard3.dart";
   @override
   _Dashboard3State createState() => _Dashboard3State();
 }

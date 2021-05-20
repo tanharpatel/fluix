@@ -1,3 +1,4 @@
+import 'package:fluix/Components/CustomAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/services.dart';
@@ -29,35 +30,7 @@ class _PickFilesState extends State<PickFiles> {
     _controller.addListener(() => _extension = _controller.text);
   }
 
-  // void _openFileExplorer() async {
-  //   if (_pickingType != FileType.any || _hasValidMime) {
-  //     setState(() => _loadingPath = true);
-  //     try {
-  //       if (_multiPick) {
-  //         _path = null;
-  //         // _paths = await FilePicker.getMultiFilePath(
-  //         //   type: _pickingType,  );
-  //         FilePickerResult result = await FilePicker.platform.pickFiles(allowMultiple: true);
-  //         if(result!=null){
-  //
-  //         }
-  //       } else {
-  //         _paths = null;
-  //         _path = await FilePicker.getFilePath(
-  //           type: _pickingType, );
-  //       }
-  //     } on PlatformException catch (e) {
-  //       print("Unsupported operation" + e.toString());
-  //     }
-  //     if (!mounted) return;
-  //     setState(() {
-  //       _loadingPath = false;
-  //       _fileName = _path != null
-  //           ? _path.split('/').last
-  //           : _paths != null ? _paths.keys.toString() : '...';
-  //     });
-  //   }
-  // }
+
 
   void _openFileExplorer() async {
     if(_pickingType != FileType.custom || _hasValidMime){
@@ -84,8 +57,9 @@ class _PickFilesState extends State<PickFiles> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("FilePickerApp"),
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(56),
+          child: CustomAppBar(title: "File Picker"),
         ),
         body: Container(
           child: Center(
@@ -95,7 +69,7 @@ class _PickFilesState extends State<PickFiles> {
                     padding: const EdgeInsets.only(top: 50.0, bottom: 20.0),
                     child: new RaisedButton(
                       onPressed: () => _openFileExplorer(),
-                      child: new Text("Open file picker"),
+                      child: new Text("Open file picker", style: TextStyle(color: Colors.white),),
                     ),
                   ),
                   new Builder(

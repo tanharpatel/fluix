@@ -1,6 +1,6 @@
 import 'package:fluix/Authentication/AnimatedSignUp.dart';
 import 'package:flutter/material.dart';
-import '../Components/form_box.dart';
+import 'package:fluix/Components/form_box.dart';
 
 
 /*TODO: PLEASE MAKE SURE TO IMPORT ALL THE PACKAGES & FILES AS SHOWN ABOVE YOU CAN REPLACE THE DEMO SCREENS WITH YOUR SCREEN*/

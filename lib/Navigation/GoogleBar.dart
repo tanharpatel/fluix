@@ -17,27 +17,27 @@ class GoogleBar extends StatefulWidget {
 
 class _GoogleBarState extends State<GoogleBar> {
   int _selectedIndex = 0;
-  // static const TextStyle optionStyle =
-  //     TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+  /*static const TextStyle optionStyle =
+      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
-  // static const List<Widget> _widgetOptions = <Widget>[
-  //   Text(
-  //     'Index 0: Home',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'Index 1: Likes',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'Index 2: Search',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'Index 3: Profile',
-  //     style: optionStyle,
-  //   ),
-  // ];
+  static const List<Widget> _widgetOptions = <Widget>[
+    Text(
+      'Index 0: Home',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 1: Likes',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 2: Search',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 3: Profile',
+      style: optionStyle,
+    ),
+  ];*/
 
   final List<Widget> _children = [
     DemoScreen1(),

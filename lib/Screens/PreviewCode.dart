@@ -3,6 +3,7 @@ import 'package:fluix/Utils/CodeColorTheme.dart';
 import 'package:fluix/Utils/Theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart' as url_launcher;
 
 /*TODO: PLEASE MAKE SURE TO IMPORT ALL THE PACKAGES & FILES AS SHOWN ABOVE YOU CAN REPLACE THE DEMO SCREENS WITH YOUR SCREEN*/
@@ -50,6 +51,7 @@ class _PreviewCodeState extends State<PreviewCode> {
         ),
         body: TabBarView(
           children: <Widget>[
+            
             FutureBuilder(
               future: rootBundle.loadString(widget.path),
               builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
@@ -111,19 +113,14 @@ class _PreviewCodeState extends State<PreviewCode> {
       FloatingActionButton(
         heroTag: "copy",
         child: Icon(Icons.content_copy),
-        tooltip: 'Copy code link to clipboard',
-        onPressed: () async {
-          await Clipboard.setData(ClipboardData(text: widget.path));
-          Scaffold.of(context).showSnackBar(SnackBar(
-            content: Text('Code link copied to Clipboard!'),
-          ));
-        },
+        tooltip: 'Share the code',
+        onPressed: () => Share.share("Check this awesome UI which I found on FLUIX 💙\n https://github.com/zeeshanbhati/Fluix/blob/master/${widget.path}"),
       ),
       FloatingActionButton(
         heroTag: "open",
         child: Icon(Icons.open_in_new),
         tooltip: 'View code on github',
-       // onPressed: () => url_launcher.launch(this.widget.path),
+        onPressed: () => url_launcher.launch("https://github.com/zeeshanbhati/Fluix/blob/master/${widget.path}"),
       ),
     ];
   }

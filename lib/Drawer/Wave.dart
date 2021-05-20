@@ -36,7 +36,7 @@ class _WaveState extends State<Wave> {
               title: Text('Screen 1',
                   style: Theme.of(context).primaryTextTheme.headline6),
               onTap: () {
-                //TODO: screen
+                /*//TODO: screen*/
               },
             ),
             ListTile(
@@ -45,7 +45,7 @@ class _WaveState extends State<Wave> {
                 style: Theme.of(context).primaryTextTheme.headline6,
               ),
               onTap: () {
-                //TODO: screen
+               /* //TODO: screen*/
               },
             ),
           ],
