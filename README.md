@@ -25,7 +25,7 @@ You can get awesome static as well as animated UI templates which you can use in
 | ------ | ------ | ------ |
 | [Ayush Singla](https://in.linkedin.com/in/ayush-singla-797b881a0) | [ayu913](https://github.com/ayu913) | - |
 | [Tanha Patel](https://www.linkedin.com/in/tanharpatel) | [tanharpatel](https://github.com/tanharpatel) | [Tanha's Portfolio](http://tanharpatel.tech) |
-| [Zeeshan Bhati](https://in.linkedin.com/in/tanharpatel99) | [tanharpatel](https://github.com/tanharpatel) | [Zeeshan's Portfolio](https://tanharpatel.github.io) |
+| [Zeeshan Bhati](https://in.linkedin.com/in/zeeshanbhati99) | [zeeshanbhati](https://github.com/zeeshanbhati) | [Zeeshan's Portfolio](https://zeeshanbhati.github.io) |
 <br>
 
 ## Open Source Contributions
