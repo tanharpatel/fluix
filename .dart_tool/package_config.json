@@ -1,0 +1,764 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "_fe_analyzer_shared",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "analyzer",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.17",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "animated_floatactionbuttons",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/animated_floatactionbuttons-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "animated_theme_switcher",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/animated_theme_switcher-1.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "argon_buttons_flutter",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/argon_buttons_flutter-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.5.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "bloc",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "bordered_text",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/bordered_text-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "cached_network_image",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "carousel_slider",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/carousel_slider-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "circle_bottom_navigation",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/circle_bottom_navigation-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cli_util-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.1.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "convert",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.17"
+    },
+    {
+      "name": "convex_bottom_bar",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/convex_bottom_bar-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "csslib",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "curved_navigation_bar",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/curved_navigation_bar-0.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "dynamic_theme",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/dynamic_theme-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.20"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "file_picker",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-7.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_database",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_storage",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flare_dart",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flare_dart-2.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "flare_flutter",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flare_flutter-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_bloc",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_cache_manager",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_cache_manager-1.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_fluid_slider",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_fluid_slider-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_screenutil-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "flutter_slider_drawer",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_slider_drawer-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "flutter_spinkit",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
+      "name": "flutter_staggered_grid_view",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_staggered_grid_view-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.19"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-7.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "foldable_sidebar",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/foldable_sidebar-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "folding_cell",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/folding_cell-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "glob",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/glob-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "google_fonts",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "google_nav_bar",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/google_nav_bar-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "hidden_drawer_menu",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/hidden_drawer_menu-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "html",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
+    },
+    {
+      "name": "intro_views_flutter",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/intro_views_flutter-2.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "line_awesome_icons",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/line_awesome_icons-1.0.4+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "line_icons",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/line_icons-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "liquid_swipe",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/liquid_swipe-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "local_auth",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/local_auth-0.6.3+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "nice_intro",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/nice_intro-0.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "node_interop",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/node_interop-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "node_io",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/node_io-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "package_config",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/package_config-1.9.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "page_transition",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/page_transition-1.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_macos",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.8.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "pigment",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/pigment-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "1.2"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/provider-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "pub_semver",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.22.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "share",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.5+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "shared_preferences",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "shared_preferences_linux",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "shared_preferences_macos",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+10",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "shared_preferences_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_platform_interface-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "shared_preferences_web",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "slider_button",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/slider_button-0.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "smart_flare",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/smart_flare-0.2.9+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqflite",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-1.0.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "swipedetector",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/swipedetector-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "synchronized",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-2.2.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "tinycolor",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/tinycolor-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "transparent_image",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/transparent_image-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "url_launcher",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+8",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "vibration",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/vibration-1.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "watcher",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+15",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "wave_drawer",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/wave_drawer-0.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///Users/tanhapatel/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
+      "name": "fluix",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2021-06-12T15:06:08.883306Z",
+  "generator": "pub",
+  "generatorVersion": "2.12.3"
+}

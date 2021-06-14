@@ -1,13 +1,12 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=C:\flutter
-FLUTTER_APPLICATION_PATH=E:\Flutter Projects\Fluix
-COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=lib\main.dart
+FLUTTER_ROOT=/Users/tanhapatel/Desktop/flutter
+FLUTTER_APPLICATION_PATH=/Users/tanhapatel/Desktop/fluix
+FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
-SYMROOT=${SOURCE_ROOT}/../build\ios
+SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_BUILD_NUMBER=1
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=false
-TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=.packages
+TREE_SHAKE_ICONS=true
+PACKAGE_CONFIG=/Users/tanhapatel/Desktop/fluix/.dart_tool/package_config.json
