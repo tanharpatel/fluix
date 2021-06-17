@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:fluix/Authentication/AnimatedLogin.dart';
 import 'package:fluix/Authentication/AnimatedSignUp.dart';
@@ -16,39 +15,52 @@ import 'package:fluix/DemoScreens/DemoScreen3.dart';
 import 'package:fluix/DemoScreens/DemoScreen4.dart';
 import 'package:fluix/Screens/Home.dart';
 import 'package:fluix/Utils/Theme.dart';
+import 'package:fluix/Utils/Theming.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-    DynamicTheme(
-      defaultBrightness: Brightness.light,
-      data: (brightness) => ThemeData(
-        brightness: enableDarkMode ? Brightness.dark : Brightness.light,
-      ),
-      themedWidgetBuilder: (context, theme) => MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: enableDarkMode ? darkTheme(context) : lightTheme(context),
-        initialRoute: '/',
-        routes: {
-          '/': (context) => Splash(),
-          AnimatedLogin.path: (context) => AnimatedLogin(),
-          AnimatedSignUp.path: (context) => AnimatedSignUp(),
-          Login1.path: (context) => Login1(),
-          SignUp1.path: (context) => SignUp1(),
-          Login2.path: (context) => Login2(),
-          SignUp2.path: (context) => SignUp2(),
-          Simple.path: (context) => Simple(),
-          SimpleS.path: (context) => SimpleS(),
-          DemoScreen1.path: (context) => DemoScreen1(),
-          DemoScreen2.path: (context) => DemoScreen2(),
-          DemoScreen3.path: (context) => DemoScreen3(),
-          DemoScreen4.path: (context) => DemoScreen4(),
-          SignUp4.path:(context) => SignUp4()
-        },
-      ),
-    ),
+    ChangeNotifierProvider<ThemeModifier>(
+      create: (context) => ThemeModifier(),
+      child: MyApp()
+    )
   );
+}
+
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      themeMode: Provider.of<ThemeModifier>(context).currentTheme,
+      theme: lightThemeData(context),
+      darkTheme: darkThemeData(context),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => Splash(),
+        AnimatedLogin.path: (context) => AnimatedLogin(),
+        AnimatedSignUp.path: (context) => AnimatedSignUp(),
+        Login1.path: (context) => Login1(),
+        SignUp1.path: (context) => SignUp1(),
+        Login2.path: (context) => Login2(),
+        SignUp2.path: (context) => SignUp2(),
+        Simple.path: (context) => Simple(),
+        SimpleS.path: (context) => SimpleS(),
+        DemoScreen1.path: (context) => DemoScreen1(),
+        DemoScreen2.path: (context) => DemoScreen2(),
+        DemoScreen3.path: (context) => DemoScreen3(),
+        DemoScreen4.path: (context) => DemoScreen4(),
+        SignUp4.path:(context) => SignUp4()
+      },
+    );
+  }
 }
 
 class Splash extends StatefulWidget {

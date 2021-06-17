@@ -22,11 +22,9 @@ public final class GeneratedPluginRegistrant {
     flutterEngine.getPlugins().add(new io.flutter.plugins.firebase.storage.FirebaseStoragePlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.flutter_plugin_android_lifecycle.FlutterAndroidLifecyclePlugin());
     flutterEngine.getPlugins().add(new io.github.ponnamkarthik.toast.fluttertoast.FlutterToastPlugin());
-      com.sahdeepsingh.liquid_swipe.LiquidSwipePlugin.registerWith(shimPluginRegistry.registrarFor("com.sahdeepsingh.liquid_swipe.LiquidSwipePlugin"));
     flutterEngine.getPlugins().add(new io.flutter.plugins.localauth.LocalAuthPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.pathprovider.PathProviderPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.share.SharePlugin());
-    flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
     flutterEngine.getPlugins().add(new com.tekartik.sqflite.SqflitePlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.urllauncher.UrlLauncherPlugin());
       com.benjaminabel.vibration.VibrationPlugin.registerWith(shimPluginRegistry.registrarFor("com.benjaminabel.vibration.VibrationPlugin"));

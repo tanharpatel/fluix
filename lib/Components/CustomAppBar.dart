@@ -1,6 +1,7 @@
-import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:fluix/Utils/Theme.dart';
+import 'package:fluix/Utils/Theming.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class CustomAppBar extends StatefulWidget {
   String title;
@@ -34,8 +35,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                 icon = Icons.brightness_3;
                 enableDarkMode = false;
               }
-              DynamicTheme.of(context).setBrightness(
-                  enableDarkMode ? Brightness.dark : Brightness.light);
+              Provider.of<ThemeModifier>(context, listen: false).setTheme();
             });
           },
         ),

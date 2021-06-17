@@ -36,7 +36,7 @@ import 'package:fluix/Miscellaneous/SliverAppBarAnimation.dart';
 import 'package:fluix/Miscellaneous/SuccessAnimation.dart';
 import 'package:fluix/Navigation/BasicTabNavigation.dart';
 import 'package:fluix/Navigation/CircleBottomBar.dart';
-import 'package:fluix/Navigation/ConvexNavigaiton.dart';
+import 'package:fluix/Navigation/ConvexNavigation.dart';
 import 'package:fluix/Navigation/CurvedNavigation.dart';
 import 'package:fluix/Navigation/GoogleBar.dart';
 import 'package:fluix/Settings/Setting1.dart';

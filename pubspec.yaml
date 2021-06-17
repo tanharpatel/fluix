@@ -18,8 +18,7 @@ dependencies:
   firebase_storage:
   flutter_spinkit:
   bordered_text:
-  dynamic_theme:
-  provider:
+  provider: ^5.0.0
   flutter_staggered_grid_view:
   transparent_image:
   wave_drawer:
@@ -30,7 +29,7 @@ dependencies:
   circle_bottom_navigation: ^1.0.6
   google_nav_bar: ^2.2.0
   line_icons: ^0.2.0
-  flutter_bloc: ^2.1.1
+  flutter_bloc: ^7.0.1
   hidden_drawer_menu: ^2.0.1
   foldable_sidebar: ^1.0.0
   swipedetector: ^1.2.0
@@ -40,11 +39,11 @@ dependencies:
   flutter_screenutil:
   animated_theme_switcher: ^1.0.7
   font_awesome_flutter: ^8.8.1
-  liquid_swipe:
-  intro_views_flutter: ^2.8.1
+  liquid_swipe: ^2.1.0
+  intro_views_flutter: ^3.2.0
   nice_intro: ^0.1.4
   local_auth: ^0.6.3+1
-  folding_cell: ^1.0.0
+  folding_cell: ^1.0.2
   page_transition: ^1.1.6
   file_picker: ^2.0.0
   flutter_fluid_slider: ^1.0.2
@@ -56,12 +55,6 @@ dependencies:
   url_launcher:
   carousel_slider:
   share: 
-
-
-
-
-
-
 
 dev_dependencies:
   flutter_test:

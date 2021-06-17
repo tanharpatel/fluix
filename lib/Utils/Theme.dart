@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 bool enableDarkMode = false;
 IconData icon = Icons.brightness_3;
 
-darkTheme(context) {
+darkThemeData(context) {
   return ThemeData(
     primarySwatch: Colors.teal,
     primaryColor: Colors.teal,
@@ -29,7 +29,7 @@ darkTheme(context) {
   );
 }
 
-lightTheme(context) {
+lightThemeData(context) {
   return ThemeData(
     primarySwatch: Colors.blue,
     primaryColor: Colors.blue,

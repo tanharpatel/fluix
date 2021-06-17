@@ -42,12 +42,6 @@
 @import fluttertoast;
 #endif
 
-#if __has_include(<liquid_swipe/LiquidSwipePlugin.h>)
-#import <liquid_swipe/LiquidSwipePlugin.h>
-#else
-@import liquid_swipe;
-#endif
-
 #if __has_include(<local_auth/FLTLocalAuthPlugin.h>)
 #import <local_auth/FLTLocalAuthPlugin.h>
 #else
@@ -64,12 +58,6 @@
 #import <share/FLTSharePlugin.h>
 #else
 @import share;
-#endif
-
-#if __has_include(<shared_preferences/FLTSharedPreferencesPlugin.h>)
-#import <shared_preferences/FLTSharedPreferencesPlugin.h>
-#else
-@import shared_preferences;
 #endif
 
 #if __has_include(<sqflite/SqflitePlugin.h>)
@@ -99,11 +87,9 @@
   [FLTFirebaseDatabasePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseDatabasePlugin"]];
   [FLTFirebaseStoragePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseStoragePlugin"]];
   [FluttertoastPlugin registerWithRegistrar:[registry registrarForPlugin:@"FluttertoastPlugin"]];
-  [LiquidSwipePlugin registerWithRegistrar:[registry registrarForPlugin:@"LiquidSwipePlugin"]];
   [FLTLocalAuthPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTLocalAuthPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
   [FLTSharePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharePlugin"]];
-  [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
   [SqflitePlugin registerWithRegistrar:[registry registrarForPlugin:@"SqflitePlugin"]];
   [FLTURLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTURLLauncherPlugin"]];
   [VibrationPlugin registerWithRegistrar:[registry registrarForPlugin:@"VibrationPlugin"]];
